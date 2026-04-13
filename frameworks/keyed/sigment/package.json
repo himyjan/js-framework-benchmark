@@ -11,7 +11,7 @@
     "dev": "rollup -c -w",
     "build-prod": "rollup -c --environment production"
   },
-  "author": "nivbe",
+  "author": "yaniv soussana",
   "license": "Apache-2.0",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.3.1",
