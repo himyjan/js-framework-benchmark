@@ -1,15 +1,21 @@
-import nodeResolve from '@rollup/plugin-node-resolve';
-import terser from '@rollup/plugin-terser';
+import resolve from "@rollup/plugin-node-resolve";
+import terser from "@rollup/plugin-terser";
+
+const TERSER_OPTIONS = {
+  module: true,
+  compress: { passes: 3 },
+  mangle: true,
+};
 
 export default {
-  input: 'src/main.js', 
-  output: {
-    file: 'dist/main.js',
-    format: 'es', 
-    sourcemap: false
+  input: "src/main.js", 
+  output: { 
+    file: "dist/main.js", 
+    format: "iife",
+    sourcemap: false 
   },
   plugins: [
-    nodeResolve(), 
-    terser()
-  ]
+    resolve({ extensions: [".js"] }),
+    process.env.production && terser(TERSER_OPTIONS),
+  ].filter(Boolean),
 };
