@@ -5,7 +5,8 @@
   "main": "dist/main.js",
   "js-framework-benchmark": {
     "frameworkVersionFromPackage": "sigment",
-    "frameworkHomeURL": "https://sigment.dev"
+    "frameworkHomeURL": "https://sigment.dev",
+    "issues": [1139]
   },
   "scripts": {
     "dev": "rollup -c -w",
