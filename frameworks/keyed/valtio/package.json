@@ -7,7 +7,7 @@
     "frameworkVersionFromPackage": "react:valtio",
     "frameworkHomeURL": "https://valtio.pmnd.rs/",
     "language": "JavaScript",
-    "repoURL": "https://github.com/facebook/react"
+    "repoURL": "https://github.com/pmndrs/valtio"
   },
   "scripts": {
     "dev": "webpack --watch",
