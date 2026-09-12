@@ -5,7 +5,7 @@
   "main": "index.js",
   "sideEffects": false,
   "js-framework-benchmark": {
-    "frameworkVersionFromPackage": "react:@legendapp/state",
+    "frameworkVersionFromPackage": "@legendapp/state:react",
     "frameworkHomeURL": "https://github.com/LegendApp/legend-state",
     "language": "JavaScript",
     "repoURL": "https://github.com/LegendApp/legend-state"

@@ -8,7 +8,7 @@
     "frameworkHomeURL": "https://ef.js.org/#!home",
     "issues": [],
     "language": "JavaScript",
-    "repoURL": "https://github.com/TheNeuronProject/ef-core"
+    "repoURL": "https://github.com/TheNeuronProject/ef.js"
   },
   "scripts": {
     "build": "rollup -c ./config/rollup.config.mjs",

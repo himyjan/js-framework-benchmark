@@ -4,7 +4,7 @@
   "type": "module",
   "main": "dist/main.js",
   "js-framework-benchmark": {
-    "frameworkVersion": "2.5.1",
+    "frameworkVersionFromPackage": "@knno/jsx",
     "frameworkHomeURL": "https://gitee.com/thor.qin/knno-jsx",
     "language": "TypeScript",
     "repoURL": "https://gitee.com/thor.qin/knno-jsx.git"
